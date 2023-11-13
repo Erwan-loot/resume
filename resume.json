@@ -1,20 +1,14 @@
 {
-  "selectedTemplate": 1,
-  "headings": {
-    "work": "Expériences",
-    "skills": "COMPÉTENCES",
-    "projects": "",
-    "education": "Formations",
-    "interests": "Intérets"
-  },
   "basics": {
     "name": "Erwan Hervé",
+    "label": "Dev Ops engineer / SRE",
     "email": "erwan.herve@outlook.fr",
-    "phone": "0633717087",
+    "phone": "+33 633717087",
+    "summary": "My various experiences as an integrator or IT administrator have made me appreciate automation, scripting and the DevOps culture.",
     "location": {
-      "city": "Orgères"
+      "city": "Orgères",
+      "countryCode": "FR"
     },
-    "website": "https://www.linkedin.com/in/erwan-herv%C3%A9-886309123/",
     "profiles": [{
       "network": "LinkedIn",
       "url": "https://www.linkedin.com/in/erwan-herv%C3%A9-886309123/"
@@ -25,9 +19,7 @@
       "institution": "ENI Ecole Informatique",
       "location": "Chartres de bretagne",
       "area": "Administrateur Systèmes et Réseaux",
-      "startDate": "",
       "endDate": "2019",
-      "gpa": "",
       "studyType": "BAC +4"
     },
     {
@@ -47,78 +39,78 @@
   ],
   "work": [
     {
-      "company": "Claranet",
+      "name": "Akeneo",
       "highlights": [
-        "Administration d'un parc informatique de plus de 600 postes Windows/MAC/Linux",
-        "Administration de différents services : Active Directory, O365, Messagerie, VOIP, Visio-conférence, MDM, VPN, SSO, Sharepoint, Confluence, Conformité des postes, Scripting PowerShell, Switchs, Vlan, BDD, Gestion de projets"
+        "Maintenance of a PAAS and SAAS platform.",
+        "Migration of PAAS instances (VMs) to SAAS (Kubernetes Pods)"
       ],
-      "summary": "Alternance pour le titre de niveau II Administrateur Systèmes et Réseaux",
-      "position": "Administrateur de parc informatique",
-      "website": "https://www.claranet.fr/",
-      "startDate": "2018",
-      "location": "Cesson Cevigné",
-      "endDate": "2019"
+      "summary": "",
+      "position": "Cloud engineer",
+      "location": "Remote",
+      "startDate": "2022"
     },
     {
-      "company": "Sopra Steria",
+      "name": "Sopra Steria",
       "highlights": [
-        "Automatisation de sujets complexes (Un SI entièrement automatisé)",
-        "Conception d’architecture de Systèmes d’informations",
-        "Durcissement des OS",
-        "Conception Test Driven Development",
-        "Coordination d'une équipe 4 collaborateurs",
-        "Affectation des tâches",
-        "Validation du code",
-        "Animation de sprint"
+        "Automation of complex subjects (A fully automated IS)",
+        "Design of information systems architecture",
+        "Hardening of OS",
+        "Test Driven Development",
+        "Coordination of a team of 4 collaborators",
+        "Assignment of tasks",
+        "Code validation",
+        "Sprint animation"
       ],
-      "summary": "Ma mission était de concevoir et développer un système d'informations entièrement automatisé.",
-      "position": "Ingénieur systèmes DevOps / Lead tech",
+      "summary": "My mission is to design and develop a fully automated information system.",
+      "position": "DevOps systems engineer / Technical Leader",
       "location": "Chartres de bretagne",
       "website": "https://www.soprasteria.fr/",
       "startDate": "2019",
       "endDate": "2022"
     },
     {
-      "company": "Akeneo",
+      "name": "Claranet",
       "highlights": [
-        "Gestion d'une infra cloud"
+        "Administration of a computer park of more than 600 Windows/MAC/Linux",
+        "Administration of different services: Active Directory, O365, Messaging, VOIP, Videoconferencing, MDM, VPN, SSO, Sharepoint, Confluence, Workstation compliance, PowerShell scripting, Switches, Vlan, DB, Project management"
       ],
-      "summary": "",
-      "position": "Ingénieur Cloud",
-      "location": "Remote",
-      "startDate": "2022",
-      "endDate": "Maintenant"
+      "summary": "Alternance pour le titre de niveau II Administrateur Systèmes et Réseaux",
+      "position": "Computer Park administrator",
+      "website": "https://www.claranet.fr/",
+      "startDate": "2018",
+      "location": "Cesson Cevigné",
+      "endDate": "2019"
     }
   ],
   "skills": [
     {
-      "name": "Tools",
+      "name": "Dev Ops",
       "level": "",
       "keywords": [
-        "Ansible", "Packer", "Terraform", "Kubernetes"
+        "Ansible", "Packer", "Terraform", "Kubernetes", "Gitlab", "Circle CI", "Datadog"
       ]
     },
     {
       "keywords": [
-        ""
+        "Openstack", "Google Cloud Platform"
       ],
-      "name": "Expertise des environnements systèmes et réseaux"
+      "name": "Cloud"
     },
     {
       "keywords": [
-        ""
+        "Bash", "PowerShell"
       ],
-      "name": "Scripting PowerShell, BASH, Python"
+      "name": "Languages"
     }
   ],
-  "projects": [
+  "languages": [
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "keywords": [
-        ""
-      ]
+      "language": "French",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": ""
     }
   ],
   "certificates": [
@@ -131,23 +123,13 @@
   ],
   "interests": [
     {
-      "name": "Jeux vidéos"
+      "name": "Video Games"
     },
     {
-      "name": "Domotique"
+      "name": "Home automation"
     },
     {
-      "name": "Cinémas et séries"
+      "name": "Movies and tv shows"
     }
-  ],
-  "sections": [
-    "templates",
-    "profile",
-    "education",
-    "work",
-    "skills",
-    "projects",
-    "certificates",
-    "interests"
   ]
 }
